@@ -131,6 +131,7 @@ describe "StoreIt!", ->
         it "implements the correct interface", ->
             service.should.respondTo("has")
             service.should.respondTo("get")
+            service.should.respondTo("fetch")
             service.should.respondTo("set")
             service.should.respondTo("metadata")
             service.should.respondTo("delete")
