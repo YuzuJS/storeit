@@ -1,6 +1,6 @@
 {
   "name": "@yuzu/storeit",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A key/value storage system that publishes events.",
   "main": "./lib/Storeit.js",
   "homepage": "https://github.com/YuzuJS/storeit",
@@ -54,11 +54,11 @@
     "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "jshint": ">= 0.7.1",
+    "chai": "^4.1.2",
     "coffee-script": ">= 1.3.3",
+    "jshint": ">= 0.7.1",
     "mocha": ">= 1.1.0",
-    "chai": ">= 1.0.4",
-    "sinon": ">= 1.3.4",
-    "sinon-chai": ">= 2.1.0"
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.0.0"
   }
 }
